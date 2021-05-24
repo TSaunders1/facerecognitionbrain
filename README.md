@@ -1,3 +1,7 @@
+Link to live site: https://smart-brain-ts.herokuapp.com/
+
+Link to back end repository: https://github.com/TSaunders1/facerecognitionbrain-api 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
