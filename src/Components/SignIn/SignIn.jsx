@@ -22,7 +22,7 @@ class SignIn extends React.Component {
     // eslint-disable-next-line react/prop-types
     const { onRouteChange, loadUser } = this.props;
     const { signInEmail, signInPassword } = this.state;
-    fetch('http://localhost:3001/signin', {
+    fetch('https://salty-dawn-68542.herokuapp.com/signin', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
