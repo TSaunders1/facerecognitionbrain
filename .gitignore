@@ -3,3 +3,6 @@
 
 # Editor preferences
 .vscode
+
+yarn.lock
+
