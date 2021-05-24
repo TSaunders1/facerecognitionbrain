@@ -27,7 +27,7 @@ class Registration extends React.Component {
     // eslint-disable-next-line react/prop-types
     const { onRouteChange, loadUser } = this.props;
     const { email, password, name } = this.state;
-    fetch('https://salty-dawn-68542.herokuapp.com/register', {
+    fetch('https://salty-dawn-68542.herokuapp.com/register/', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
